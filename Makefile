@@ -42,7 +42,7 @@ test-api:  ## Run generated API integration tests
 ifdef race
 	$(eval testapiargs += "-race")
 endif
-	$(eval testapiargs += "-cover" "-coverpkg=github.com/elastic/go-elasticsearch/v7/esapi" "-coverprofile=$(PWD)/tmp/integration-api.cov" "-tags='integration'" "-timeout=1h")
+	$(eval testapiargs += "-cover" "-coverpkg=github.com/datadog/go-elasticsearch/esapi" "-coverprofile=$(PWD)/tmp/integration-api.cov" "-tags='integration'" "-timeout=1h")
 ifdef flavor
 else
 	$(eval flavor='free')
@@ -239,10 +239,10 @@ endif
 
 godoc: ## Display documentation for the package
 	@printf "\033[2m→ Generating documentation...\033[0m\n"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v7"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v7/esapi"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v7/estransport"
-	@echo "* http://localhost:6060/pkg/github.com/elastic/go-elasticsearch/v7/esutil"
+	@echo "* http://localhost:6060/pkg/github.com/datadog/go-elasticsearch"
+	@echo "* http://localhost:6060/pkg/github.com/datadog/go-elasticsearch/esapi"
+	@echo "* http://localhost:6060/pkg/github.com/datadog/go-elasticsearch/estransport"
+	@echo "* http://localhost:6060/pkg/github.com/datadog/go-elasticsearch/esutil"
 	@printf "\n"
 	godoc --http=localhost:6060 --play
 

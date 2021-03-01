@@ -7,7 +7,7 @@ package esapi_test
 import (
 	"log"
 
-	"github.com/elastic/go-elasticsearch/v7"
+	"github.com/datadog/go-elasticsearch"
 )
 
 func ExampleResponse_IsError() {

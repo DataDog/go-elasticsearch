@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v7"
-	"github.com/elastic/go-elasticsearch/v7/esapi"
-	"github.com/elastic/go-elasticsearch/v7/esutil"
+	"github.com/datadog/go-elasticsearch"
+	"github.com/datadog/go-elasticsearch/esapi"
+	"github.com/datadog/go-elasticsearch/esutil"
 )
 
 func TestJSONReaderIntegration(t *testing.T) {

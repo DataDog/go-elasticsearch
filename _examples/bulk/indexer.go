@@ -28,9 +28,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/go-elasticsearch/v7"
-	"github.com/elastic/go-elasticsearch/v7/esapi"
-	"github.com/elastic/go-elasticsearch/v7/esutil"
+	"github.com/datadog/go-elasticsearch"
+	"github.com/datadog/go-elasticsearch/esapi"
+	"github.com/datadog/go-elasticsearch/esutil"
 )
 
 type Article struct {

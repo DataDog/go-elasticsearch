@@ -14,7 +14,7 @@ import (
 
 	"go.elastic.co/apm"
 
-	"github.com/elastic/go-elasticsearch/v7/esutil"
+	"github.com/datadog/go-elasticsearch/esutil"
 )
 
 type Consumer struct {

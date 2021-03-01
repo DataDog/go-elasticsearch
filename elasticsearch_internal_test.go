@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v7/estransport"
+	"github.com/datadog/go-elasticsearch/estransport"
 )
 
 func TestClientConfiguration(t *testing.T) {

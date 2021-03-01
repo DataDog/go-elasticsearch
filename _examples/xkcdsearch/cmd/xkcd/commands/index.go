@@ -18,9 +18,9 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/go-elasticsearch/v7"
+	"github.com/datadog/go-elasticsearch"
 
-	"github.com/elastic/go-elasticsearch/v7/_examples/xkcdsearch"
+	"github.com/datadog/go-elasticsearch/_examples/xkcdsearch"
 )
 
 var (

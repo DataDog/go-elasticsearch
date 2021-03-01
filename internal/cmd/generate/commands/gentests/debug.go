@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/utils"
+	"github.com/datadog/go-elasticsearch/internal/cmd/generate/utils"
 )
 
 // DebugInfo returns information about the endpoint as a string.

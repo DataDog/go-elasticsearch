@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v7"
-	"github.com/elastic/go-elasticsearch/v7/esapi"
+	"github.com/datadog/go-elasticsearch"
+	"github.com/datadog/go-elasticsearch/esapi"
 	"github.com/fatih/color"
 	"github.com/mailru/easyjson"
 
-	"github.com/elastic/go-elasticsearch/v7/_examples/encoding/model"
+	"github.com/datadog/go-elasticsearch/_examples/encoding/model"
 )
 
 var (
